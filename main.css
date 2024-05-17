@@ -1,0 +1,231 @@
+body{
+  background-color: black;
+}
+.search-button{
+  background-color: black;
+  color: white;
+  border-color: white;
+  padding: 6px;
+  border-radius: 5px;
+  margin-left: 1px;
+  margin-top: 6px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+.search-button:hover{
+background-color: blue;
+}
+.search-input{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-left: 8px;
+  margin-top: 10px;
+}
+.navbar ul{
+  list-style-type: none;
+  background-color: white;
+  padding: 20px;
+  margin-top: 2px;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 1502px;
+  margin-left: 7.6px;
+}
+.navbar a{
+  color: black;
+  text-decoration: none;
+  padding: 0px;
+  display: block;
+  text-align: center;
+  margin-left: 179px;
+}
+.navbar a:hover{
+background-color: rgb(195, 195, 199);
+border-radius: 3px;
+transition: 0.4s;
+}
+.navbar li{
+  float: left;
+}
+.sports {
+  color: white;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.hello{
+  position: absolute;
+  height: auto;
+  left: 0px;
+  width: 60px;
+  margin-left: 16px;
+  margin-top: 1px;
+  height: 56px;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  margin-left: 251px;
+  width: 1255px;
+  height: 248px;
+}
+.image-container img{
+  margin: 0 10px;
+  max-width: 100px;
+  height: auto;
+}
+
+footer{
+  background-color: white;
+  margin-top: -10px;
+}
+.footerContainer{
+  width: 100%;
+  padding: 20px;
+  margin-top: 11px;
+}
+.socialIcons{
+  display: flex;
+  justify-content: space-between;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding: 3px;
+  background-color: black;
+  border-radius: 50%;
+}
+.socialIcons a i{
+  font-size: 1em;
+  color: white;
+  opacity: 0.9s;
+}
+/* Hover Effects on Social Media Icons */
+.socialIcons a:hover{
+  background-color: #0037ff;
+  transition: 0.5s;
+}
+.socialIcons a:hover i{
+  color: #000000;
+  transition: 0.5s;
+}
+.footerNav{
+  margin: 30px;
+  margin-bottom: 3px;
+  height: 1px;
+}
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-bottom: -10px;
+}
+.footerNav ul li a{
+  color: black;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+.footerBottom{
+  background-color: rgb(44, 68, 73);
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p{
+  color: rgb(255, 255, 255);
+}
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+@media (max-width: 700px){
+  .footerNav ul{
+    flex-direction: column;
+  }
+  .footerNav ul li{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}
+.img-godzilla{
+  width: 1255px;
+  margin-left: 251px;
+  margin-top: -64px;
+  height: 770px;
+}
+.img-ghostbusters{
+  width: 300px;
+  height: 100px;
+}
+
+.sidebar{
+  width: 230px;
+  height: 950px;
+  background-color: white;
+  position: absolute;
+  top: 140px;
+  left: 7px;
+  overflow-y: auto;
+}
+.sidebar img{
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.sidebar-images{
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+}
+.img-spiderman1{
+  width: 1255px;
+  margin-left: 251px;
+  margin-top: -64px;
+  height: 770px;
+}
+.img-tvshow{
+  width: 1255px;
+  margin-left: 251px;
+  margin-top: -64px;
+  height: 770px; 
+}
+.img-COD{
+  width: 1255px;
+  height: 1020px;
+  margin-left: 251px;
+  margin-top: -64px;
+}
+.image-container{
+  align-items: center;
+  border: blue;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+}
+.img-buy{
+  width: 1255px;
+  margin-left: 251px;
+  margin-top: -64px;
+  height: 770px; 
+}
+
+
+
