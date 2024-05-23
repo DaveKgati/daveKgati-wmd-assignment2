@@ -1,0 +1,141 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  margin-left: 18px;
+  width: 1468px;
+  border-radius: 10px;
+}
+
+.navbar ul li a.active {
+  color: white; 
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navbar img {
+  height: 50px; 
+}
+
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.navbar ul li {
+  margin: 0 10px;
+}
+
+.main-content {
+  padding: 20px;
+  flex: 1;
+}
+
+.sidebar-ads {
+  margin-top: 20px;
+}
+
+.sidebar-ads img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  max-width: 900px; 
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footerNav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footerNav ul li {
+  margin: 0 10px;
+}
+
+.footerBottom {
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.search-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-button {
+  background-color: black;
+  color: white;
+  border-color: white;
+  padding: 6px;
+  border-radius: 5px;
+  margin-left: 1px;
+  margin-top: 8px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.search-button:hover{
+  background-color: #08ef;
+  }
+  .search-input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 8px;
+    margin-top: 13px;
+    height: 32px;
+  }
+
+.movies to watch {
+  padding: 10px;
+  margin-left: 700px;
+}
+
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
